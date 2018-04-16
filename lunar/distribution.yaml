@@ -1,8 +1,8 @@
 %YAML 1.1
-# ROS distribution file
-# see REP 143: http://ros.org/reps/rep-0143.html
----
-release_platforms:
+        # ROS distribution file
+        # see REP 143: http://ros.org/reps/rep-0143.html
+        ---
+        release_platforms:
   debian:
   - stretch
   fedora:
@@ -18,7 +18,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/Eurecat/abseil_cpp-release.git
+      url: https://github.com/gdlg-rosarch/abseil_cpp-release.git
       version: 0.2.3-0
     source:
       test_pull_requests: true
@@ -34,7 +34,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-drivers-gbp/ackermann_msgs-release.git
+      url: https://github.com/gdlg-rosarch/ackermann_msgs-release.git
       version: 1.0.1-0
     source:
       type: git
@@ -49,7 +49,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/actionlib-release.git
+      url: https://github.com/gdlg-rosarch/actionlib-release.git
       version: 1.11.13-0
     source:
       test_pull_requests: true
@@ -70,7 +70,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ubi-agni-gbp/agni_tf_tools-release.git
+      url: https://github.com/gdlg-rosarch/agni_tf_tools-release.git
       version: 0.1.0-1
     source:
       type: git
@@ -85,7 +85,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/geometry_angles_utils-release.git
+      url: https://github.com/gdlg-rosarch/geometry_angles_utils-release.git
       version: 1.9.11-0
     source:
       type: git
@@ -103,7 +103,7 @@ repositories:
       - ar_track_alvar_msgs
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/ar_track_alvar-release.git
+      url: https://github.com/gdlg-rosarch/ar_track_alvar-release.git
       version: 0.7.1-0
     source:
       test_pull_requests: true
@@ -124,7 +124,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/oceansystemslab/auv_msgs-release.git
+      url: https://github.com/gdlg-rosarch/auv_msgs-release.git
       version: 0.1.0-0
     source:
       type: git
@@ -139,7 +139,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/srv/avt_vimba_camera-release.git
+      url: https://github.com/gdlg-rosarch/avt_vimba_camera-release.git
       version: 0.0.10-0
     source:
       type: git
@@ -154,7 +154,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-drivers-gbp/axis_camera-release.git
+      url: https://github.com/gdlg-rosarch/axis_camera-release.git
       version: 0.2.1-0
     source:
       type: git
@@ -176,7 +176,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/bfl-release.git
+      url: https://github.com/gdlg-rosarch/bfl-release.git
       version: 0.7.0-0
     status: end-of-life
     status_description: Currently this is minimally used and is on 0.7. It needs a
@@ -195,7 +195,7 @@ repositories:
       - smclib
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/bond_core-release.git
+      url: https://github.com/gdlg-rosarch/bond_core-release.git
       version: 1.8.1-0
     source:
       test_pull_requests: true
@@ -223,7 +223,7 @@ repositories:
       - settlerlib
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/calibration-release.git
+      url: https://github.com/gdlg-rosarch/calibration-release.git
       version: 0.10.14-0
     source:
       test_pull_requests: true
@@ -239,7 +239,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/camera_info_manager_py-release.git
+      url: https://github.com/gdlg-rosarch/camera_info_manager_py-release.git
       version: 0.2.3-0
     source:
       type: git
@@ -258,7 +258,7 @@ repositories:
       - uvc_camera
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-drivers-gbp/camera_umd-release.git
+      url: https://github.com/gdlg-rosarch/camera_umd-release.git
       version: 0.2.5-0
     source:
       type: git
@@ -273,7 +273,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/capabilities-release.git
+      url: https://github.com/gdlg-rosarch/capabilities-release.git
       version: 0.2.0-0
     source:
       test_pull_requests: true
@@ -289,7 +289,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/davetcoleman/cartesian_msgs-release.git
+      url: https://github.com/gdlg-rosarch/cartesian_msgs-release.git
       version: 0.0.3-0
     source:
       type: git
@@ -304,7 +304,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/cartographer-release.git
+      url: https://github.com/gdlg-rosarch/cartographer-release.git
       version: 0.2.0-5
     status: developed
   cartographer_ros:
@@ -319,7 +319,7 @@ repositories:
       - cartographer_rviz
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/cartographer_ros-release.git
+      url: https://github.com/gdlg-rosarch/cartographer_ros-release.git
       version: 0.2.0-4
     status: developed
   catkin:
@@ -330,7 +330,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/catkin-release.git
+      url: https://github.com/gdlg-rosarch/catkin-release.git
       version: 0.7.11-0
     source:
       test_pull_requests: true
@@ -346,7 +346,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/pyros-dev/catkin_pip-release.git
+      url: https://github.com/gdlg-rosarch/catkin_pip-release.git
       version: 0.2.3-0
     source:
       test_pull_requests: true
@@ -362,7 +362,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/locusrobotics/catkin_virtualenv-release.git
+      url: https://github.com/gdlg-rosarch/catkin_virtualenv-release.git
       version: 0.1.4-0
     source:
       type: git
@@ -377,7 +377,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/class_loader-release.git
+      url: https://github.com/gdlg-rosarch/class_loader-release.git
       version: 0.3.9-0
     source:
       test_pull_requests: true
@@ -393,7 +393,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/cmake_modules-release.git
+      url: https://github.com/gdlg-rosarch/cmake_modules-release.git
       version: 0.4.1-0
     source:
       type: git
@@ -410,7 +410,7 @@ repositories:
       - collada_urdf
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/collada_urdf-release.git
+      url: https://github.com/gdlg-rosarch/collada_urdf-release.git
       version: 1.12.10-2
     source:
       test_pull_requests: true
@@ -437,7 +437,7 @@ repositories:
       - visualization_msgs
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/common_msgs-release.git
+      url: https://github.com/gdlg-rosarch/common_msgs-release.git
       version: 1.12.5-0
     source:
       test_pull_requests: true
@@ -459,7 +459,7 @@ repositories:
       - turtle_actionlib
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/common_tutorials-release.git
+      url: https://github.com/gdlg-rosarch/common_tutorials-release.git
       version: 0.1.10-0
     source:
       type: git
@@ -474,7 +474,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/control_msgs-release.git
+      url: https://github.com/gdlg-rosarch/control_msgs-release.git
       version: 1.4.0-1
     source:
       type: git
@@ -489,7 +489,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/control_toolbox-release.git
+      url: https://github.com/gdlg-rosarch/control_toolbox-release.git
       version: 1.16.0-0
     source:
       type: git
@@ -500,7 +500,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/convex_decomposition-release.git
+      url: https://github.com/gdlg-rosarch/convex_decomposition-release.git
       version: 0.1.11-0
     source:
       type: git
@@ -515,7 +515,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/rst-tu-dortmund/costmap_converter-release.git
+      url: https://github.com/gdlg-rosarch/costmap_converter-release.git
       version: 0.0.7-0
     source:
       test_pull_requests: true
@@ -531,7 +531,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/OTL/cv_camera-release.git
+      url: https://github.com/gdlg-rosarch/cv_camera-release.git
       version: 0.2.1-0
     source:
       type: git
@@ -555,7 +555,7 @@ repositories:
       - test_diagnostic_aggregator
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/diagnostics-release.git
+      url: https://github.com/gdlg-rosarch/diagnostics-release.git
       version: 1.9.2-0
     source:
       type: git
@@ -570,7 +570,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/dynamic_reconfigure-release.git
+      url: https://github.com/gdlg-rosarch/dynamic_reconfigure-release.git
       version: 1.5.49-0
     source:
       test_pull_requests: true
@@ -586,7 +586,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/tork-a/dynpick_driver-release.git
+      url: https://github.com/gdlg-rosarch/dynpick_driver-release.git
       version: 0.2.0-0
     source:
       type: git
@@ -610,7 +610,7 @@ repositories:
       - ecl_time_lite
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/yujinrobot-release/ecl_lite-release.git
+      url: https://github.com/gdlg-rosarch/ecl_lite-release.git
       version: 0.61.6-0
     source:
       type: git
@@ -629,7 +629,7 @@ repositories:
       - ecl_tools
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/yujinrobot-release/ecl_tools-release.git
+      url: https://github.com/gdlg-rosarch/ecl_tools-release.git
       version: 0.61.7-0
     source:
       type: git
@@ -640,7 +640,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/ecto-release.git
+      url: https://github.com/gdlg-rosarch/ecto-release.git
       version: 0.6.12-0
     source:
       type: git
@@ -655,7 +655,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/eigen_stl_containers-release.git
+      url: https://github.com/gdlg-rosarch/eigen_stl_containers-release.git
       version: 0.1.8-0
     source:
       type: git
@@ -697,7 +697,7 @@ repositories:
       - smach_ros
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/executive_smach-release.git
+      url: https://github.com/gdlg-rosarch/executive_smach-release.git
       version: 2.0.1-0
     source:
       type: git
@@ -715,7 +715,7 @@ repositories:
       - smach_viewer
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/jbohren/executive_smach_visualization-release.git
+      url: https://github.com/gdlg-rosarch/executive_smach_visualization-release.git
       version: 2.0.2-0
     source:
       type: git
@@ -730,7 +730,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/filters-release.git
+      url: https://github.com/gdlg-rosarch/filters-release.git
       version: 1.8.1-0
     source:
       test_pull_requests: true
@@ -746,7 +746,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/introlab/find_object_2d-release.git
+      url: https://github.com/gdlg-rosarch/find_object_2d-release.git
       version: 0.6.2-0
     source:
       type: git
@@ -761,7 +761,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-drivers-gbp/four_wheel_steering_msgs-release.git
+      url: https://github.com/gdlg-rosarch/four_wheel_steering_msgs-release.git
       version: 1.0.0-1
     source:
       type: git
@@ -793,7 +793,7 @@ repositories:
       - gazebo_ros_pkgs
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/gazebo_ros_pkgs-release.git
+      url: https://github.com/gdlg-rosarch/gazebo_ros_pkgs-release.git
       version: 2.7.3-0
     source:
       test_pull_requests: true
@@ -813,7 +813,7 @@ repositories:
       - gcloud_speech_utils
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/CogRobRelease/gcloud_speech-release.git
+      url: https://github.com/gdlg-rosarch/gcloud_speech-release.git
       version: 0.0.4-0
     source:
       test_pull_requests: true
@@ -829,7 +829,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/gencpp-release.git
+      url: https://github.com/gdlg-rosarch/gencpp-release.git
       version: 0.6.0-0
     source:
       type: git
@@ -844,7 +844,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/tork-a/geneus-release.git
+      url: https://github.com/gdlg-rosarch/geneus-release.git
       version: 2.2.6-0
     source:
       type: git
@@ -859,7 +859,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/genlisp-release.git
+      url: https://github.com/gdlg-rosarch/genlisp-release.git
       version: 0.4.16-0
     source:
       type: git
@@ -874,7 +874,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/genmsg-release.git
+      url: https://github.com/gdlg-rosarch/genmsg-release.git
       version: 0.5.10-0
     source:
       test_pull_requests: true
@@ -890,7 +890,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/RethinkRobotics-release/gennodejs-release.git
+      url: https://github.com/gdlg-rosarch/gennodejs-release.git
       version: 2.0.1-0
     source:
       test_pull_requests: true
@@ -906,7 +906,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/genpy-release.git
+      url: https://github.com/gdlg-rosarch/genpy-release.git
       version: 0.6.7-0
     source:
       test_pull_requests: true
@@ -926,7 +926,7 @@ repositories:
       - geographic_msgs
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-geographic-info/geographic_info-release.git
+      url: https://github.com/gdlg-rosarch/geographic_info-release.git
       version: 0.5.2-0
     source:
       type: git
@@ -941,7 +941,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/geometric_shapes-release.git
+      url: https://github.com/gdlg-rosarch/geometric_shapes-release.git
       version: 0.5.4-0
     source:
       type: git
@@ -962,7 +962,7 @@ repositories:
       - tf_conversions
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/geometry-release.git
+      url: https://github.com/gdlg-rosarch/geometry-release.git
       version: 1.11.9-0
     source:
       test_pull_requests: true
@@ -990,7 +990,7 @@ repositories:
       - tf2_tools
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/geometry2-release.git
+      url: https://github.com/gdlg-rosarch/geometry2-release.git
       version: 0.5.17-0
     source:
       test_pull_requests: true
@@ -1010,7 +1010,7 @@ repositories:
       - turtle_tf2
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/geometry_tutorials-release.git
+      url: https://github.com/gdlg-rosarch/geometry_tutorials-release.git
       version: 0.2.2-0
     source:
       test_pull_requests: true
@@ -1026,7 +1026,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/gl_dependency-release.git
+      url: https://github.com/gdlg-rosarch/gl_dependency-release.git
       version: 1.1.0-0
     source:
       type: git
@@ -1045,7 +1045,7 @@ repositories:
       - gpsd_client
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/swri-robotics-gbp/gps_umd-release.git
+      url: https://github.com/gdlg-rosarch/gps_umd-release.git
       version: 0.2.0-0
     source:
       type: git
@@ -1056,7 +1056,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/davetcoleman/graph_msgs-release.git
+      url: https://github.com/gdlg-rosarch/graph_msgs-release.git
       version: 0.1.0-0
     status: maintained
   grid_map:
@@ -1082,7 +1082,7 @@ repositories:
       - grid_map_visualization
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ethz-asl/grid_map-release.git
+      url: https://github.com/gdlg-rosarch/grid_map-release.git
       version: 1.6.0-1
     source:
       test_pull_requests: true
@@ -1098,7 +1098,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/CogRobRelease/catkin_grpc-release.git
+      url: https://github.com/gdlg-rosarch/catkin_grpc-release.git
       version: 0.0.6-0
     source:
       type: git
@@ -1113,7 +1113,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-drivers-gbp/gscam-release.git
+      url: https://github.com/gdlg-rosarch/gscam-release.git
       version: 1.0.0-0
     source:
       type: git
@@ -1128,7 +1128,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/at-wat/hokuyo3d-release.git
+      url: https://github.com/gdlg-rosarch/hokuyo3d-release.git
       version: 0.2.0-0
     source:
       type: git
@@ -1155,7 +1155,7 @@ repositories:
       - polled_camera
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/image_common-release.git
+      url: https://github.com/gdlg-rosarch/image_common-release.git
       version: 1.11.13-0
     source:
       type: git
@@ -1179,7 +1179,7 @@ repositories:
       - stereo_image_proc
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/image_pipeline-release.git
+      url: https://github.com/gdlg-rosarch/image_pipeline-release.git
       version: 1.12.21-0
     source:
       type: git
@@ -1199,7 +1199,7 @@ repositories:
       - theora_image_transport
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/image_transport_plugins-release.git
+      url: https://github.com/gdlg-rosarch/image_transport_plugins-release.git
       version: 1.9.5-0
     source:
       type: git
@@ -1218,7 +1218,7 @@ repositories:
       - imagezero_ros
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/swri-robotics-gbp/imagezero_transport-release.git
+      url: https://github.com/gdlg-rosarch/imagezero_transport-release.git
       version: 0.2.4-0
     source:
       type: git
@@ -1238,7 +1238,7 @@ repositories:
       - rviz_imu_plugin
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/uos-gbp/imu_tools-release.git
+      url: https://github.com/gdlg-rosarch/imu_tools-release.git
       version: 1.1.5-0
     source:
       type: git
@@ -1253,7 +1253,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/innokrobotics/innok_heros_driver-release.git
+      url: https://github.com/gdlg-rosarch/innok_heros_driver-release.git
       version: 1.0.3-0
     source:
       type: git
@@ -1268,7 +1268,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/interactive_marker_twist_server-release.git
+      url: https://github.com/gdlg-rosarch/interactive_marker_twist_server-release.git
       version: 1.2.0-0
     source:
       type: git
@@ -1283,7 +1283,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/interactive_markers-release.git
+      url: https://github.com/gdlg-rosarch/interactive_markers-release.git
       version: 1.11.3-0
     source:
       test_pull_requests: true
@@ -1299,7 +1299,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/iot_bridge-release.git
+      url: https://github.com/gdlg-rosarch/iot_bridge-release.git
       version: 0.9.0-0
     source:
       type: git
@@ -1310,7 +1310,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/ivcon-release.git
+      url: https://github.com/gdlg-rosarch/ivcon-release.git
       version: 0.1.6-0
     source:
       type: git
@@ -1325,7 +1325,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/joint_state_publisher-release.git
+      url: https://github.com/gdlg-rosarch/joint_state_publisher-release.git
       version: 1.12.13-0
     source:
       test_pull_requests: true
@@ -1347,7 +1347,7 @@ repositories:
       - wiimote
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/joystick_drivers-release.git
+      url: https://github.com/gdlg-rosarch/joystick_drivers-release.git
       version: 1.11.0-0
     source:
       type: git
@@ -1369,7 +1369,7 @@ repositories:
       - speech_recognition_msgs
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/tork-a/jsk_common_msgs-release.git
+      url: https://github.com/gdlg-rosarch/jsk_common_msgs-release.git
       version: 4.3.1-0
     source:
       type: git
@@ -1387,7 +1387,7 @@ repositories:
       - json_transport
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/locusrobotics/json_transport-release.git
+      url: https://github.com/gdlg-rosarch/json_transport-release.git
       version: 0.0.1-0
     source:
       type: git
@@ -1413,7 +1413,7 @@ repositories:
       - kni
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/uos-gbp/katana_driver-release.git
+      url: https://github.com/gdlg-rosarch/katana_driver-release.git
       version: 1.1.2-0
     source:
       test_pull_requests: true
@@ -1432,7 +1432,7 @@ repositories:
       - kdl_parser_py
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/kdl_parser-release.git
+      url: https://github.com/gdlg-rosarch/kdl_parser-release.git
       version: 1.12.10-0
     source:
       test_pull_requests: true
@@ -1448,7 +1448,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/laser_assembler-release.git
+      url: https://github.com/gdlg-rosarch/laser_assembler-release.git
       version: 1.7.4-0
     source:
       type: git
@@ -1463,7 +1463,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/laser_filters-release.git
+      url: https://github.com/gdlg-rosarch/laser_filters-release.git
       version: 1.8.5-0
     source:
       type: git
@@ -1478,7 +1478,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/laser_geometry-release.git
+      url: https://github.com/gdlg-rosarch/laser_geometry-release.git
       version: 1.6.4-0
     source:
       type: git
@@ -1493,7 +1493,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/laser_pipeline-release.git
+      url: https://github.com/gdlg-rosarch/laser_pipeline-release.git
       version: 1.6.2-0
     source:
       type: git
@@ -1508,7 +1508,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/AutonomyLab/libcreate-release.git
+      url: https://github.com/gdlg-rosarch/libcreate-release.git
       version: 1.6.0-0
     source:
       type: git
@@ -1523,14 +1523,14 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-drivers-gbp/libfreenect-ros-release.git
+      url: https://github.com/gdlg-rosarch/libfreenect-ros-release.git
       version: 0.5.1-0
     status: maintained
   libg2o:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/libg2o-release.git
+      url: https://github.com/gdlg-rosarch/libg2o-release.git
       version: 2017.4.2-1
     status: maintained
   libsick_ldmrs:
@@ -1550,7 +1550,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ktossell/libuvc-release.git
+      url: https://github.com/gdlg-rosarch/libuvc-release.git
       version: 0.0.6-2
     source:
       type: git
@@ -1568,7 +1568,7 @@ repositories:
       - libuvc_ros
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-drivers-gbp/libuvc_ros-release.git
+      url: https://github.com/gdlg-rosarch/libuvc_ros-release.git
       version: 0.0.10-1
     source:
       type: git
@@ -1581,7 +1581,7 @@ repositories:
       url: https://github.com/orocos-toolchain/log4cpp.git
       version: toolchain-2.9
     release:
-      url: https://github.com/orocos-gbp/log4cpp-release.git
+      url: https://github.com/gdlg-rosarch/log4cpp-release.git
     source:
       type: git
       url: https://github.com/orocos-toolchain/log4cpp.git
@@ -1598,7 +1598,7 @@ repositories:
       - multirobot_map_merge
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/hrnr/m-explore-release.git
+      url: https://github.com/gdlg-rosarch/m-explore-release.git
       version: 2.1.1-0
     source:
       type: git
@@ -1618,7 +1618,7 @@ repositories:
       - tile_map
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/swri-robotics-gbp/mapviz-release.git
+      url: https://github.com/gdlg-rosarch/mapviz-release.git
       version: 0.2.5-0
     source:
       type: git
@@ -1651,7 +1651,7 @@ repositories:
       - swri_yaml_util
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/swri-robotics-gbp/marti_common-release.git
+      url: https://github.com/gdlg-rosarch/marti_common-release.git
       version: 2.2.0-0
     source:
       type: git
@@ -1674,7 +1674,7 @@ repositories:
       - marti_visualization_msgs
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/swri-robotics-gbp/marti_messages-release.git
+      url: https://github.com/gdlg-rosarch/marti_messages-release.git
       version: 0.5.0-0
     source:
       type: git
@@ -1689,7 +1689,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/mavlink/mavlink-gbp-release.git
+      url: https://github.com/gdlg-rosarch/mavlink-gbp-release.git
       version: 2018.4.4-0
     source:
       type: git
@@ -1710,7 +1710,7 @@ repositories:
       - test_mavros
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/mavlink/mavros-release.git
+      url: https://github.com/gdlg-rosarch/mavros-release.git
       version: 0.24.0-0
     source:
       test_pull_requests: true
@@ -1726,7 +1726,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/media_export-release.git
+      url: https://github.com/gdlg-rosarch/media_export-release.git
       version: 0.2.0-0
     source:
       type: git
@@ -1741,7 +1741,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/message_generation-release.git
+      url: https://github.com/gdlg-rosarch/message_generation-release.git
       version: 0.4.0-0
     source:
       type: git
@@ -1756,7 +1756,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/message_runtime-release.git
+      url: https://github.com/gdlg-rosarch/message_runtime-release.git
       version: 0.4.12-0
     source:
       type: git
@@ -1780,7 +1780,7 @@ repositories:
       - viz
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/metapackages-release.git
+      url: https://github.com/gdlg-rosarch/metapackages-release.git
       version: 1.3.2-0
     source:
       type: git
@@ -1804,7 +1804,7 @@ repositories:
       - move_base_flex
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/uos-gbp/move_base_flex-release.git
+      url: https://github.com/gdlg-rosarch/move_base_flex-release.git
       version: 0.1.0-0
     source:
       type: git
@@ -1843,7 +1843,7 @@ repositories:
       - moveit_simple_controller_manager
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/moveit-release.git
+      url: https://github.com/gdlg-rosarch/moveit-release.git
       version: 0.9.11-0
     source:
       type: git
@@ -1858,7 +1858,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/moveit_msgs-release.git
+      url: https://github.com/gdlg-rosarch/moveit_msgs-release.git
       version: 0.9.1-0
     source:
       test_pull_requests: true
@@ -1874,7 +1874,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/moveit_resources-release.git
+      url: https://github.com/gdlg-rosarch/moveit_resources-release.git
       version: 0.6.2-0
     source:
       test_pull_requests: true
@@ -1890,7 +1890,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/davetcoleman/moveit_sim_controller-release.git
+      url: https://github.com/gdlg-rosarch/moveit_sim_controller-release.git
       version: 0.1.0-0
     source:
       type: git
@@ -1905,7 +1905,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/davetcoleman/moveit_visual_tools-release.git
+      url: https://github.com/gdlg-rosarch/moveit_visual_tools-release.git
       version: 3.3.0-0
     source:
       type: git
@@ -1920,7 +1920,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/groove-x/mqtt_bridge-release.git
+      url: https://github.com/gdlg-rosarch/mqtt_bridge-release.git
       version: 0.1.6-0
     source:
       type: git
@@ -1961,7 +1961,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-naoqi/libqi-release.git
+      url: https://github.com/gdlg-rosarch/libqi-release.git
       version: 2.5.0-2
     status: maintained
   nav_pcontroller:
@@ -1972,7 +1972,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/code-iai-release/nav_pcontroller-release.git
+      url: https://github.com/gdlg-rosarch/nav_pcontroller-release.git
       version: 0.1.4-0
     source:
       type: git
@@ -2005,7 +2005,7 @@ repositories:
       - voxel_grid
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/navigation-release.git
+      url: https://github.com/gdlg-rosarch/navigation-release.git
       version: 1.15.2-0
     source:
       test_pull_requests: true
@@ -2024,7 +2024,7 @@ repositories:
       - move_base_msgs
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/navigation_msgs-release.git
+      url: https://github.com/gdlg-rosarch/navigation_msgs-release.git
       version: 1.13.0-0
     status: maintained
   nerian_sp1:
@@ -2035,7 +2035,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/nerian-vision/nerian_sp1-release.git
+      url: https://github.com/gdlg-rosarch/nerian_sp1-release.git
       version: 1.6.3-0
     source:
       type: git
@@ -2051,7 +2051,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/nerian-vision/nerian_stereo-release.git
+      url: https://github.com/gdlg-rosarch/nerian_stereo-release.git
       version: 2.1.0-0
     source:
       type: git
@@ -2066,7 +2066,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-drivers-gbp/nmea_msgs-release.git
+      url: https://github.com/gdlg-rosarch/nmea_msgs-release.git
       version: 1.1.0-0
     source:
       test_pull_requests: true
@@ -2086,7 +2086,7 @@ repositories:
       - nodelet_topic_tools
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/nodelet_core-release.git
+      url: https://github.com/gdlg-rosarch/nodelet_core-release.git
       version: 1.9.14-0
     source:
       test_pull_requests: true
@@ -2105,7 +2105,7 @@ repositories:
       - novatel_gps_msgs
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/swri-robotics-gbp/novatel_gps_driver-release.git
+      url: https://github.com/gdlg-rosarch/novatel_gps_driver-release.git
       version: 3.4.0-0
     source:
       type: git
@@ -2120,7 +2120,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/vooon/ntpd_driver-release.git
+      url: https://github.com/gdlg-rosarch/ntpd_driver-release.git
       version: 1.2.0-0
     source:
       type: git
@@ -2131,7 +2131,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/object_recognition_msgs-release.git
+      url: https://github.com/gdlg-rosarch/object_recognition_msgs-release.git
       version: 0.4.1-0
     source:
       type: git
@@ -2144,7 +2144,7 @@ repositories:
       url: https://github.com/orocos-toolchain/ocl.git
       version: toolchain-2.9
     release:
-      url: https://github.com/orocos-gbp/ocl-release.git
+      url: https://github.com/gdlg-rosarch/ocl-release.git
     source:
       type: git
       url: https://github.com/orocos-toolchain/ocl.git
@@ -2162,7 +2162,7 @@ repositories:
       - octovis
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/octomap-release.git
+      url: https://github.com/gdlg-rosarch/octomap-release.git
       version: 1.9.0-0
     source:
       type: git
@@ -2179,7 +2179,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/octomap_msgs-release.git
+      url: https://github.com/gdlg-rosarch/octomap_msgs-release.git
       version: 0.3.3-0
     source:
       type: git
@@ -2194,7 +2194,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/TUC-ProAut/ros_octomap-release.git
+      url: https://github.com/gdlg-rosarch/ros_octomap-release.git
       version: 1.3.3-0
     source:
       type: git
@@ -2209,7 +2209,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/octomap_ros-release.git
+      url: https://github.com/gdlg-rosarch/octomap_ros-release.git
       version: 0.4.0-1
     source:
       type: git
@@ -2224,7 +2224,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/ompl-release.git
+      url: https://github.com/gdlg-rosarch/ompl-release.git
       version: 1.3.1-3
     status: maintained
   open_street_map:
@@ -2239,7 +2239,7 @@ repositories:
       - test_osm
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-geographic-info/open_street_map-release.git
+      url: https://github.com/gdlg-rosarch/open_street_map-release.git
       version: 0.2.4-0
     source:
       type: git
@@ -2250,7 +2250,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/opencv3-release.git
+      url: https://github.com/gdlg-rosarch/opencv3-release.git
       version: 3.3.1-2
     status: maintained
   openni2_camera:
@@ -2264,7 +2264,7 @@ repositories:
       - openni2_launch
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/openni2_camera-release.git
+      url: https://github.com/gdlg-rosarch/openni2_camera-release.git
       version: 0.3.0-0
     source:
       test_pull_requests: true
@@ -2283,7 +2283,7 @@ repositories:
       - openni_launch
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/openni_camera-release.git
+      url: https://github.com/gdlg-rosarch/openni_camera-release.git
       version: 1.10.0-0
     source:
       type: git
@@ -2294,7 +2294,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/openslam_gmapping-release.git
+      url: https://github.com/gdlg-rosarch/openslam_gmapping-release.git
       version: 0.1.2-0
     source:
       test_pull_requests: true
@@ -2315,7 +2315,7 @@ repositories:
       - python_orocos_kdl
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/smits/orocos-kdl-release.git
+      url: https://github.com/gdlg-rosarch/orocos-kdl-release.git
       version: 1.3.1-0
     source:
       type: git
@@ -2333,7 +2333,7 @@ repositories:
       - p2os_urdf
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/allenh1/p2os-release.git
+      url: https://github.com/gdlg-rosarch/p2os-release.git
       version: 2.1.0-0
     source:
       type: git
@@ -2348,7 +2348,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/tuc-proaut/ros_parameter-release.git
+      url: https://github.com/gdlg-rosarch/ros_parameter-release.git
       version: 1.2.1-0
     source:
       type: git
@@ -2363,7 +2363,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/tuc-proaut/ros_pcdfilter-release.git
+      url: https://github.com/gdlg-rosarch/ros_pcdfilter-release.git
       version: 1.2.0-0
     source:
       type: git
@@ -2378,7 +2378,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/pcl_conversions-release.git
+      url: https://github.com/gdlg-rosarch/pcl_conversions-release.git
       version: 0.2.1-0
     source:
       type: git
@@ -2393,7 +2393,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/pcl_msgs-release.git
+      url: https://github.com/gdlg-rosarch/pcl_msgs-release.git
       version: 0.2.0-0
     source:
       test_pull_requests: true
@@ -2412,7 +2412,7 @@ repositories:
       - perception_pcl
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/perception_pcl-release.git
+      url: https://github.com/gdlg-rosarch/perception_pcl-release.git
       version: 1.5.4-0
     source:
       type: git
@@ -2434,7 +2434,7 @@ repositories:
       - phidgets_imu
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-drivers-gbp/phidgets_drivers-release.git
+      url: https://github.com/gdlg-rosarch/phidgets_drivers-release.git
       version: 0.7.5-0
     source:
       test_pull_requests: true
@@ -2450,7 +2450,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/AndyZe/pid-release.git
+      url: https://github.com/gdlg-rosarch/pid-release.git
       version: 0.0.23-0
     source:
       type: git
@@ -2465,7 +2465,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/facontidavide/plotjuggler-release.git
+      url: https://github.com/gdlg-rosarch/plotjuggler-release.git
       version: 1.5.1-0
     source:
       type: git
@@ -2480,7 +2480,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/pluginlib-release.git
+      url: https://github.com/gdlg-rosarch/pluginlib-release.git
       version: 1.11.3-0
     source:
       test_pull_requests: true
@@ -2496,7 +2496,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/pointcloud_to_laserscan-release.git
+      url: https://github.com/gdlg-rosarch/pointcloud_to_laserscan-release.git
       version: 1.4.0-0
     source:
       test_pull_requests: true
@@ -2518,7 +2518,7 @@ repositories:
       - wfov_camera_msgs
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-drivers-gbp/pointgrey_camera_driver-release.git
+      url: https://github.com/gdlg-rosarch/pointgrey_camera_driver-release.git
       version: 0.13.3-0
     source:
       type: git
@@ -2539,7 +2539,7 @@ repositories:
       - pr2_msgs
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/pr2_common-release.git
+      url: https://github.com/gdlg-rosarch/pr2_common-release.git
       version: 1.12.0-0
     source:
       type: git
@@ -2550,21 +2550,21 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/pyros-dev/pyros-config-rosrelease.git
+      url: https://github.com/gdlg-rosarch/pyros-config-rosrelease.git
       version: 0.2.0-0
     status: developed
   pyros_test:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/pyros-dev/pyros-test-release.git
+      url: https://github.com/gdlg-rosarch/pyros-test-release.git
       version: 0.0.6-1
     status: developed
   pyros_utils:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/pyros-dev/pyros-utils-release.git
+      url: https://github.com/gdlg-rosarch/pyros-utils-release.git
       version: 0.1.4-0
   python_qt_binding:
     doc:
@@ -2574,7 +2574,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/python_qt_binding-release.git
+      url: https://github.com/gdlg-rosarch/python_qt_binding-release.git
       version: 0.3.3-2
     source:
       type: git
@@ -2596,7 +2596,7 @@ repositories:
       - qt_gui_py_common
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/qt_gui_core-release.git
+      url: https://github.com/gdlg-rosarch/qt_gui_core-release.git
       version: 0.3.8-0
     source:
       test_pull_requests: true
@@ -2612,7 +2612,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/qwt_dependency-release.git
+      url: https://github.com/gdlg-rosarch/qwt_dependency-release.git
       version: 1.1.0-0
     source:
       type: git
@@ -2627,7 +2627,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/random_numbers-release.git
+      url: https://github.com/gdlg-rosarch/random_numbers-release.git
       version: 0.3.1-1
     source:
       type: git
@@ -2642,7 +2642,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/roboception/rc_dynamics_api-release.git
+      url: https://github.com/gdlg-rosarch/rc_dynamics_api-release.git
       version: 0.5.0-0
     source:
       test_pull_requests: true
@@ -2658,7 +2658,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/roboception/rc_genicam_api-release.git
+      url: https://github.com/gdlg-rosarch/rc_genicam_api-release.git
       version: 1.3.6-0
     source:
       test_pull_requests: true
@@ -2678,7 +2678,7 @@ repositories:
       - rc_visard_driver
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/roboception/rc_visard-release.git
+      url: https://github.com/gdlg-rosarch/rc_visard-release.git
       version: 2.0.0-0
     source:
       test_pull_requests: true
@@ -2694,7 +2694,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/realtime_tools-release.git
+      url: https://github.com/gdlg-rosarch/realtime_tools-release.git
       version: 1.11.0-0
     source:
       type: git
@@ -2709,7 +2709,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/resource_retriever-release.git
+      url: https://github.com/gdlg-rosarch/resource_retriever-release.git
       version: 1.12.4-0
     source:
       test_pull_requests: true
@@ -2723,7 +2723,7 @@ repositories:
       url: https://github.com/orocos/rFSM.git
       version: master
     release:
-      url: https://github.com/orocos-gbp/rfsm-release.git
+      url: https://github.com/gdlg-rosarch/rfsm-release.git
     source:
       type: git
       url: https://github.com/orocos/rFSM.git
@@ -2737,7 +2737,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rgbd_launch-release.git
+      url: https://github.com/gdlg-rosarch/rgbd_launch-release.git
       version: 2.2.2-0
     source:
       test_pull_requests: true
@@ -2753,7 +2753,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/cra-ros-pkg/robot_localization-release.git
+      url: https://github.com/gdlg-rosarch/robot_localization-release.git
       version: 2.5.2-0
     source:
       test_pull_requests: true
@@ -2769,7 +2769,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/robot_model-release.git
+      url: https://github.com/gdlg-rosarch/robot_model-release.git
       version: 1.12.11-0
     source:
       test_pull_requests: true
@@ -2788,7 +2788,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/robot_state_publisher-release.git
+      url: https://github.com/gdlg-rosarch/robot_state_publisher-release.git
       version: 1.13.6-0
     source:
       test_pull_requests: true
@@ -2816,7 +2816,7 @@ repositories:
       - rosunit
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/ros-release.git
+      url: https://github.com/gdlg-rosarch/ros-release.git
       version: 1.14.2-0
     source:
       test_pull_requests: true
@@ -2841,7 +2841,7 @@ repositories:
       - socketcan_interface
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-industrial-release/ros_canopen-release.git
+      url: https://github.com/gdlg-rosarch/ros_canopen-release.git
       version: 0.7.6-0
     source:
       type: git
@@ -2878,7 +2878,7 @@ repositories:
       - xmlrpcpp
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/ros_comm-release.git
+      url: https://github.com/gdlg-rosarch/ros_comm-release.git
       version: 1.13.6-0
     source:
       test_pull_requests: true
@@ -2897,7 +2897,7 @@ repositories:
       - std_srvs
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/ros_comm_msgs-release.git
+      url: https://github.com/gdlg-rosarch/ros_comm_msgs-release.git
       version: 1.11.2-0
     source:
       type: git
@@ -2924,7 +2924,7 @@ repositories:
       - transmission_interface
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/ros_control-release.git
+      url: https://github.com/gdlg-rosarch/ros_control-release.git
       version: 0.13.1-0
     source:
       type: git
@@ -2939,7 +2939,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/davetcoleman/ros_control_boilerplate-release.git
+      url: https://github.com/gdlg-rosarch/ros_control_boilerplate-release.git
       version: 0.4.1-0
     source:
       type: git
@@ -2968,7 +2968,7 @@ repositories:
       - velocity_controllers
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/ros_controllers-release.git
+      url: https://github.com/gdlg-rosarch/ros_controllers-release.git
       version: 0.13.2-0
     source:
       type: git
@@ -2989,7 +2989,7 @@ repositories:
       - slime_wrapper
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/code-iai-release/ros_emacs_utils-release.git
+      url: https://github.com/gdlg-rosarch/ros_emacs_utils-release.git
       version: 0.4.12-0
     source:
       type: git
@@ -3004,7 +3004,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/ros_environment-release.git
+      url: https://github.com/gdlg-rosarch/ros_environment-release.git
       version: 1.1.0-0
     source:
       type: git
@@ -3024,7 +3024,7 @@ repositories:
       - turtlesim
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/ros_tutorials-release.git
+      url: https://github.com/gdlg-rosarch/ros_tutorials-release.git
       version: 0.8.1-0
     source:
       test_pull_requests: true
@@ -3040,7 +3040,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/facontidavide/ros_type_introspection-release.git
+      url: https://github.com/gdlg-rosarch/ros_type_introspection-release.git
       version: 1.0.2-0
     source:
       type: git
@@ -3065,7 +3065,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/gt-rail-release/rosauth-release.git
+      url: https://github.com/gdlg-rosarch/rosauth-release.git
       version: 0.1.7-2
     source:
       type: git
@@ -3082,7 +3082,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rosbag_migration_rule-release.git
+      url: https://github.com/gdlg-rosarch/rosbag_migration_rule-release.git
       version: 1.0.0-0
     status: maintained
   rosbridge_suite:
@@ -3098,7 +3098,7 @@ repositories:
       - rosbridge_suite
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
+      url: https://github.com/gdlg-rosarch/rosbridge_suite-release.git
       version: 0.8.4-0
     source:
       type: git
@@ -3113,7 +3113,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rosconsole_bridge-release.git
+      url: https://github.com/gdlg-rosarch/rosconsole_bridge-release.git
       version: 0.5.1-0
     source:
       test_pull_requests: true
@@ -3135,7 +3135,7 @@ repositories:
       - rostime
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/roscpp_core-release.git
+      url: https://github.com/gdlg-rosarch/roscpp_core-release.git
       version: 0.6.9-0
     source:
       test_pull_requests: true
@@ -3151,7 +3151,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rosdoc_lite-release.git
+      url: https://github.com/gdlg-rosarch/rosdoc_lite-release.git
       version: 0.2.7-0
     source:
       type: git
@@ -3173,7 +3173,7 @@ repositories:
       - rosflight_utils
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/rosflight/rosflight-release.git
+      url: https://github.com/gdlg-rosarch/rosflight-release.git
       version: 1.0.0-0
     source:
       test_pull_requests: true
@@ -3189,7 +3189,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/roslint-release.git
+      url: https://github.com/gdlg-rosarch/roslint-release.git
       version: 0.11.1-0
     source:
       type: git
@@ -3204,7 +3204,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/roslisp-release.git
+      url: https://github.com/gdlg-rosarch/roslisp-release.git
       version: 1.9.21-0
     source:
       type: git
@@ -3229,7 +3229,7 @@ repositories:
       - roslisp_utilities
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/roslisp_common-release.git
+      url: https://github.com/gdlg-rosarch/roslisp_common-release.git
       version: 0.2.10-0
     source:
       type: git
@@ -3244,7 +3244,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/xqms/rosmon-release.git
+      url: https://github.com/gdlg-rosarch/rosmon-release.git
       version: 1.0.1-0
     source:
       test_pull_requests: true
@@ -3260,7 +3260,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rospack-release.git
+      url: https://github.com/gdlg-rosarch/rospack-release.git
       version: 2.5.0-0
     source:
       test_pull_requests: true
@@ -3276,7 +3276,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/cbandera/rosparam_handler-release.git
+      url: https://github.com/gdlg-rosarch/rosparam_handler-release.git
       version: 0.1.3-0
     source:
       type: git
@@ -3291,7 +3291,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/davetcoleman/rosparam_shortcuts-release.git
+      url: https://github.com/gdlg-rosarch/rosparam_shortcuts-release.git
       version: 0.2.1-0
     source:
       type: git
@@ -3318,7 +3318,7 @@ repositories:
       - rosserial_xbee
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rosserial-release.git
+      url: https://github.com/gdlg-rosarch/rosserial-release.git
       version: 0.7.7-0
     source:
       type: git
@@ -3339,7 +3339,7 @@ repositories:
       - rqt_py_common
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt-release.git
+      url: https://github.com/gdlg-rosarch/rqt-release.git
       version: 0.5.0-0
     source:
       type: git
@@ -3354,7 +3354,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_action-release.git
+      url: https://github.com/gdlg-rosarch/rqt_action-release.git
       version: 0.4.9-0
     source:
       type: git
@@ -3372,7 +3372,7 @@ repositories:
       - rqt_bag_plugins
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_bag-release.git
+      url: https://github.com/gdlg-rosarch/rqt_bag-release.git
       version: 0.4.12-0
     source:
       type: git
@@ -3387,7 +3387,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_common_plugins-release.git
+      url: https://github.com/gdlg-rosarch/rqt_common_plugins-release.git
       version: 0.4.8-0
     source:
       type: git
@@ -3402,7 +3402,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_console-release.git
+      url: https://github.com/gdlg-rosarch/rqt_console-release.git
       version: 0.4.8-0
     source:
       type: git
@@ -3417,7 +3417,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_dep-release.git
+      url: https://github.com/gdlg-rosarch/rqt_dep-release.git
       version: 0.4.8-0
     source:
       type: git
@@ -3432,7 +3432,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/OTL/rqt_ez_publisher-release.git
+      url: https://github.com/gdlg-rosarch/rqt_ez_publisher-release.git
       version: 0.4.0-0
     source:
       type: git
@@ -3447,7 +3447,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_graph-release.git
+      url: https://github.com/gdlg-rosarch/rqt_graph-release.git
       version: 0.4.9-0
     source:
       test_pull_requests: true
@@ -3463,7 +3463,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_image_view-release.git
+      url: https://github.com/gdlg-rosarch/rqt_image_view-release.git
       version: 0.4.11-0
     source:
       test_pull_requests: true
@@ -3479,7 +3479,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_launch-release.git
+      url: https://github.com/gdlg-rosarch/rqt_launch-release.git
       version: 0.4.8-0
     source:
       test_pull_requests: true
@@ -3495,7 +3495,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_logger_level-release.git
+      url: https://github.com/gdlg-rosarch/rqt_logger_level-release.git
       version: 0.4.8-0
     source:
       type: git
@@ -3510,7 +3510,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_moveit-release.git
+      url: https://github.com/gdlg-rosarch/rqt_moveit-release.git
       version: 0.5.7-0
     source:
       test_pull_requests: true
@@ -3526,7 +3526,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_msg-release.git
+      url: https://github.com/gdlg-rosarch/rqt_msg-release.git
       version: 0.4.8-0
     source:
       type: git
@@ -3541,7 +3541,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_nav_view-release.git
+      url: https://github.com/gdlg-rosarch/rqt_nav_view-release.git
       version: 0.5.7-0
     source:
       type: git
@@ -3556,7 +3556,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_plot-release.git
+      url: https://github.com/gdlg-rosarch/rqt_plot-release.git
       version: 0.4.8-0
     source:
       type: git
@@ -3571,7 +3571,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_pose_view-release.git
+      url: https://github.com/gdlg-rosarch/rqt_pose_view-release.git
       version: 0.5.8-0
     source:
       type: git
@@ -3586,7 +3586,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_publisher-release.git
+      url: https://github.com/gdlg-rosarch/rqt_publisher-release.git
       version: 0.4.8-0
     source:
       type: git
@@ -3601,7 +3601,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_py_console-release.git
+      url: https://github.com/gdlg-rosarch/rqt_py_console-release.git
       version: 0.4.8-0
     source:
       type: git
@@ -3616,7 +3616,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_reconfigure-release.git
+      url: https://github.com/gdlg-rosarch/rqt_reconfigure-release.git
       version: 0.4.9-0
     source:
       test_pull_requests: true
@@ -3632,7 +3632,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_robot_dashboard-release.git
+      url: https://github.com/gdlg-rosarch/rqt_robot_dashboard-release.git
       version: 0.5.7-0
     source:
       test_pull_requests: true
@@ -3648,7 +3648,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_robot_monitor-release.git
+      url: https://github.com/gdlg-rosarch/rqt_robot_monitor-release.git
       version: 0.5.8-0
     source:
       type: git
@@ -3663,7 +3663,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_robot_plugins-release.git
+      url: https://github.com/gdlg-rosarch/rqt_robot_plugins-release.git
       version: 0.5.7-0
     source:
       type: git
@@ -3678,7 +3678,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_robot_steering-release.git
+      url: https://github.com/gdlg-rosarch/rqt_robot_steering-release.git
       version: 0.5.9-0
     source:
       type: git
@@ -3693,7 +3693,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_runtime_monitor-release.git
+      url: https://github.com/gdlg-rosarch/rqt_runtime_monitor-release.git
       version: 0.5.7-0
     source:
       type: git
@@ -3708,7 +3708,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_rviz-release.git
+      url: https://github.com/gdlg-rosarch/rqt_rviz-release.git
       version: 0.5.8-0
     source:
       test_pull_requests: true
@@ -3724,7 +3724,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_service_caller-release.git
+      url: https://github.com/gdlg-rosarch/rqt_service_caller-release.git
       version: 0.4.8-0
     source:
       type: git
@@ -3739,7 +3739,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_shell-release.git
+      url: https://github.com/gdlg-rosarch/rqt_shell-release.git
       version: 0.4.9-0
     source:
       type: git
@@ -3754,7 +3754,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_srv-release.git
+      url: https://github.com/gdlg-rosarch/rqt_srv-release.git
       version: 0.4.8-0
     source:
       type: git
@@ -3769,7 +3769,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_tf_tree-release.git
+      url: https://github.com/gdlg-rosarch/rqt_tf_tree-release.git
       version: 0.5.8-0
     source:
       test_pull_requests: true
@@ -3785,7 +3785,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_top-release.git
+      url: https://github.com/gdlg-rosarch/rqt_top-release.git
       version: 0.4.8-0
     source:
       type: git
@@ -3800,7 +3800,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_topic-release.git
+      url: https://github.com/gdlg-rosarch/rqt_topic-release.git
       version: 0.4.10-0
     source:
       type: git
@@ -3815,7 +3815,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_web-release.git
+      url: https://github.com/gdlg-rosarch/rqt_web-release.git
       version: 0.4.8-0
     source:
       type: git
@@ -3830,7 +3830,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/introlab/rtabmap-release.git
+      url: https://github.com/gdlg-rosarch/rtabmap-release.git
       version: 0.13.2-3
     source:
       type: git
@@ -3845,7 +3845,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/introlab/rtabmap_ros-release.git
+      url: https://github.com/gdlg-rosarch/rtabmap_ros-release.git
       version: 0.13.2-0
     source:
       type: git
@@ -3858,7 +3858,7 @@ repositories:
       url: https://github.com/orocos-toolchain/rtt.git
       version: toolchain-2.9
     release:
-      url: https://github.com/orocos-gbp/rtt-release.git
+      url: https://github.com/gdlg-rosarch/rtt-release.git
     source:
       type: git
       url: https://github.com/orocos-toolchain/rtt.git
@@ -3874,7 +3874,7 @@ repositories:
       - eigen_typekit
       - kdl_typekit
       - rtt_geometry
-      url: https://github.com/orocos-gbp/rtt_geometry-release.git
+      url: https://github.com/gdlg-rosarch/rtt_geometry-release.git
     source:
       type: git
       url: https://github.com/orocos/rtt_geometry.git
@@ -3914,7 +3914,7 @@ repositories:
       - rtt_tf
       - rtt_trajectory_msgs
       - rtt_visualization_msgs
-      url: https://github.com/orocos-gbp/rtt_ros_integration-release.git
+      url: https://github.com/gdlg-rosarch/rtt_ros_integration-release.git
     source:
       type: git
       url: https://github.com/orocos/rtt_ros_integration.git
@@ -3928,7 +3928,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/rviz-release.git
+      url: https://github.com/gdlg-rosarch/rviz-release.git
       version: 1.12.15-0
     source:
       test_pull_requests: true
@@ -3944,7 +3944,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/davetcoleman/rviz_visual_tools-release.git
+      url: https://github.com/gdlg-rosarch/rviz_visual_tools-release.git
       version: 3.4.1-0
     source:
       type: git
@@ -3959,7 +3959,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ENSTABretagneRobotics/sbg_ros_driver-release.git
+      url: https://github.com/gdlg-rosarch/sbg_ros_driver-release.git
       version: 1.1.6-0
     source:
       type: git
@@ -3984,7 +3984,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/SICKAG/sick_scan-release.git
+      url: https://github.com/gdlg-rosarch/sick_scan-release.git
       version: 0.0.11-0
     source:
       type: git
@@ -3999,7 +3999,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/uos-gbp/sick_tim-release.git
+      url: https://github.com/gdlg-rosarch/sick_tim-release.git
       version: 0.0.12-0
     source:
       test_pull_requests: true
@@ -4018,7 +4018,7 @@ repositories:
       - slam_gmapping
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/slam_gmapping-release.git
+      url: https://github.com/gdlg-rosarch/slam_gmapping-release.git
       version: 1.3.10-0
     source:
       test_pull_requests: true
@@ -4034,7 +4034,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/smits/soem-gbp.git
+      url: https://github.com/gdlg-rosarch/soem-gbp.git
       version: 1.3.0-0
     source:
       test_pull_requests: true
@@ -4050,7 +4050,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/srdfdom-release.git
+      url: https://github.com/gdlg-rosarch/srdfdom-release.git
       version: 0.4.2-0
     source:
       test_pull_requests: true
@@ -4062,7 +4062,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/stage-release.git
+      url: https://github.com/gdlg-rosarch/stage-release.git
       version: 4.3.0-0
     source:
       type: git
@@ -4077,7 +4077,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/stage_ros-release.git
+      url: https://github.com/gdlg-rosarch/stage_ros-release.git
       version: 1.8.0-0
     source:
       test_pull_requests: true
@@ -4093,7 +4093,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/std_capabilities-release.git
+      url: https://github.com/gdlg-rosarch/std_capabilities-release.git
       version: 0.1.0-0
     source:
       type: git
@@ -4108,7 +4108,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/std_msgs-release.git
+      url: https://github.com/gdlg-rosarch/std_msgs-release.git
       version: 0.5.11-0
     source:
       type: git
@@ -4123,7 +4123,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/swri-robotics-gbp/swri_console-release.git
+      url: https://github.com/gdlg-rosarch/swri_console-release.git
       version: 1.0.0-0
     source:
       type: git
@@ -4138,7 +4138,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
+      url: https://github.com/gdlg-rosarch/teb_local_planner-release.git
       version: 0.7.0-0
     source:
       test_pull_requests: true
@@ -4154,7 +4154,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials-release.git
+      url: https://github.com/gdlg-rosarch/teb_local_planner_tutorials-release.git
       version: 0.2.1-0
     source:
       type: git
@@ -4175,7 +4175,7 @@ repositories:
       - teleop_tools_msgs
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/teleop_tools-release.git
+      url: https://github.com/gdlg-rosarch/teleop_tools-release.git
       version: 0.2.6-0
     source:
       type: git
@@ -4202,7 +4202,7 @@ repositories:
       - trac_ik_python
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/traclabs/trac_ik-release.git
+      url: https://github.com/gdlg-rosarch/trac_ik-release.git
       version: 1.4.11-0
     source:
       type: git
@@ -4221,7 +4221,7 @@ repositories:
       - uuid_msgs
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-geographic-info/unique_identifier-release.git
+      url: https://github.com/gdlg-rosarch/unique_identifier-release.git
       version: 1.0.6-0
     source:
       type: git
@@ -4239,7 +4239,7 @@ repositories:
       - urdf_parser_plugin
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/urdf-release.git
+      url: https://github.com/gdlg-rosarch/urdf-release.git
       version: 1.12.12-0
     source:
       test_pull_requests: true
@@ -4255,7 +4255,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/urdf_geometry_parser-release.git
+      url: https://github.com/gdlg-rosarch/urdf_geometry_parser-release.git
       version: 0.0.3-0
     source:
       type: git
@@ -4273,7 +4273,7 @@ repositories:
       - urdf_tutorial
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/urdf_tutorial-release.git
+      url: https://github.com/gdlg-rosarch/urdf_tutorial-release.git
       version: 0.3.0-0
     source:
       type: git
@@ -4288,7 +4288,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/urdfdom_py-release.git
+      url: https://github.com/gdlg-rosarch/urdfdom_py-release.git
       version: 0.3.3-0
     source:
       test_pull_requests: true
@@ -4304,7 +4304,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/urg_c-release.git
+      url: https://github.com/gdlg-rosarch/urg_c-release.git
       version: 1.0.404-0
     source:
       type: git
@@ -4319,7 +4319,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/usb_cam-release.git
+      url: https://github.com/gdlg-rosarch/usb_cam-release.git
       version: 0.3.6-0
     source:
       type: git
@@ -4354,7 +4354,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-drivers/video_stream_opencv-release.git
+      url: https://github.com/gdlg-rosarch/video_stream_opencv-release.git
       version: 1.1.0-0
     source:
       type: git
@@ -4369,7 +4369,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/Kukanani/vision_msgs-release.git
+      url: https://github.com/gdlg-rosarch/vision_msgs-release.git
       version: 0.0.1-1
     source:
       type: git
@@ -4388,7 +4388,7 @@ repositories:
       - vision_opencv
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/vision_opencv-release.git
+      url: https://github.com/gdlg-rosarch/vision_opencv-release.git
       version: 1.12.7-0
     source:
       type: git
@@ -4410,7 +4410,7 @@ repositories:
       - visp_tracker
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/lagadic/vision_visp-release.git
+      url: https://github.com/gdlg-rosarch/vision_visp-release.git
       version: 0.10.0-1
     source:
       type: git
@@ -4421,7 +4421,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/lagadic/visp-release.git
+      url: https://github.com/gdlg-rosarch/visp-release.git
       version: 3.1.0-2
     status: maintained
   visualization_tutorials:
@@ -4439,7 +4439,7 @@ repositories:
       - visualization_tutorials
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/visualization_tutorials-release.git
+      url: https://github.com/gdlg-rosarch/visualization_tutorials-release.git
       version: 0.10.2-0
     source:
       test_pull_requests: true
@@ -4465,7 +4465,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-drivers-gbp/vrpn-release.git
+      url: https://github.com/gdlg-rosarch/vrpn-release.git
       version: 7.33.1-5
     source:
       type: git
@@ -4481,7 +4481,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-drivers-gbp/vrpn_client_ros-release.git
+      url: https://github.com/gdlg-rosarch/vrpn_client_ros-release.git
       version: 0.2.2-0
     source:
       test_pull_requests: true
@@ -4497,7 +4497,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/warehouse_ros-release.git
+      url: https://github.com/gdlg-rosarch/warehouse_ros-release.git
       version: 0.9.0-0
     source:
       test_pull_requests: true
@@ -4513,7 +4513,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/webkit_dependency-release.git
+      url: https://github.com/gdlg-rosarch/webkit_dependency-release.git
       version: 1.1.0-0
     source:
       type: git
@@ -4524,7 +4524,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ksatyaki/wts_driver-release.git
+      url: https://github.com/gdlg-rosarch/wts_driver-release.git
       version: 1.0.4-2
     status: maintained
   xacro:
@@ -4535,7 +4535,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/xacro-release.git
+      url: https://github.com/gdlg-rosarch/xacro-release.git
       version: 1.12.1-0
     source:
       type: git
@@ -4558,7 +4558,7 @@ repositories:
       - xpp_vis
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/leggedrobotics/xpp-release.git
+      url: https://github.com/gdlg-rosarch/xpp-release.git
       version: 1.0.5-0
     source:
       test_pull_requests: true
@@ -4574,7 +4574,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ethz-asl/ethzasl_xsens_driver-release.git
+      url: https://github.com/gdlg-rosarch/ethzasl_xsens_driver-release.git
       version: 2.1.0-0
     source:
       type: git
@@ -4589,7 +4589,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/rohbotics/xv_11_laser_driver-release.git
+      url: https://github.com/gdlg-rosarch/xv_11_laser_driver-release.git
       version: 0.3.0-0
     source:
       type: git
@@ -4604,7 +4604,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-drivers-gbp/zbar_ros-release.git
+      url: https://github.com/gdlg-rosarch/zbar_ros-release.git
       version: 0.1.0-0
     source:
       test_pull_requests: true
