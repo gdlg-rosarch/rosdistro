@@ -10,6 +10,8 @@ release_platforms:
   - '24'
   ubuntu:
   - xenial
+  arch:
+  - latest
 repositories:
   abb:
     doc:

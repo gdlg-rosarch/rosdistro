@@ -9,6 +9,8 @@ release_platforms:
   - '26'
   ubuntu:
   - xenial
+  arch:
+  - latest
 repositories:
   abseil_cpp:
     doc:
