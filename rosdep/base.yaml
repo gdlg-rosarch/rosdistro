@@ -1487,6 +1487,7 @@ libcegui-mk2-dev:
   gentoo: [dev-games/cegui]
   ubuntu: [libcegui-mk2-dev]
 libceres-dev:
+  arch: [ceres-solver]
   debian:
     buster: [libceres-dev]
     stretch: [libceres-dev]
@@ -1842,6 +1843,7 @@ libgomp1:
   gentoo: [sys-libs/gcc]
   ubuntu: [libgomp1]
 libgoogle-glog-dev:
+  arch: [google-glog]
   debian: [libgoogle-glog-dev]
   fedora: [glog-devel]
   gentoo: [dev-cpp/glog]
@@ -3320,6 +3322,7 @@ libvtk-qt:
     yakkety: [libvtk6-qt-dev]
     zesty: [libvtk6-qt-dev]
 libwebp-dev:
+  arch: [libwebp]
   debian: [libwebp-dev]
   fedora: [libwebp-devel]
   gentoo: [media-libs/libwebp]
@@ -3559,6 +3562,7 @@ lua-dev:
   macports: [lua51]
   ubuntu: [liblua5.1-0-dev]
 lua5.2-dev:
+  arch: [lua52]
   debian: [liblua5.2-dev]
   fedora: [lua]
   gentoo: ['dev-lang/lua:5.2']
