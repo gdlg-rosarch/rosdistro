@@ -3766,6 +3766,7 @@ mplayer:
   gentoo: [media-video/mplayer]
   ubuntu: [mplayer]
 mrpt:
+  arch: [mrpt]
   debian: [libmrpt-dev]
   fedora: [mrpt-devel]
   gentoo: [sci-electronics/mrpt]
