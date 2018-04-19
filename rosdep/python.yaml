@@ -3851,6 +3851,7 @@ python-webob:
   gentoo: [dev-python/webob]
   ubuntu: [python-webob]
 python-websocket:
+  arch: [python2-websocket-client]
   debian: [python-websocket]
   fedora: [python-websocket-client]
   gentoo: [dev-python/websocket-client]
