@@ -59,6 +59,7 @@ cppcheck-junit-pip:
     pip:
       packages: [cppcheck-junit]
 cython:
+  arch: [cython2]
   debian: [cython]
   fedora: [Cython]
   gentoo: [dev-python/cython]
@@ -1389,6 +1390,7 @@ python-gtk2:
   rhel: [pygtk2]
   ubuntu: [python-gtk2]
 python-h5py:
+  arch: [python2-h5py]
   debian: [python-h5py]
   fedora: [h5py]
   gentoo: [dev-python/h5py]
@@ -3244,6 +3246,7 @@ python-skimage-pip:
     pip:
       packages: [scikit-image]
 python-sklearn:
+  arch: [python2-scikit-learn]
   debian: [python-sklearn]
   fedora: [python-scikit-learn]
   gentoo: [sci-libs/scikits_learn]
