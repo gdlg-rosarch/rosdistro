@@ -3804,6 +3804,7 @@ net-tools:
   gentoo: [sys-apps/net-tools]
   ubuntu: [net-tools]
 netcdf:
+  arch: [netcdf]
   debian: [libnetcdf-dev]
   fedora: [netcdf]
   gentoo: [sci-libs/netcdf, sci-libs/netcdf-cxx, sci-libs/netcdf-fortran]
