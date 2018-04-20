@@ -3722,6 +3722,7 @@ mkdocs-bootswatch:
         packages: [mkdocs-bootswatch]
     zesty: [mkdocs-bootswatch]
 mongodb:
+  arch: [mongodb]
   debian: [mongodb]
   fedora: [mongodb]
   gentoo: [dev-db/mongodb]
