@@ -1108,6 +1108,7 @@ python-freezegun-pip:
     pip:
       packages: [freezegun]
 python-future:
+  arch: [python2-future]
   debian: [python-future]
   fedora: [python-future]
   gentoo: [dev-python/future]
