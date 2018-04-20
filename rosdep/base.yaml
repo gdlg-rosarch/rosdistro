@@ -2227,11 +2227,13 @@ libnl-dev:
   gentoo: [dev-libs/libnl]
   ubuntu: [libnl-dev]
 libnlopt-dev:
+  arch: [nlopt]
   debian: [libnlopt-dev]
   fedora: [NLopt-devel]
   gentoo: [sci-libs/nlopt]
   ubuntu: [libnlopt-dev]
 libnlopt0:
+  arch: [nlopt]
   debian: [libnlopt0]
   fedora: [NLopt]
   gentoo: [sci-libs/nlopt]
@@ -4533,6 +4535,7 @@ swi-prolog-xpce:
     quantal: [swi-prolog]
     raring: [swi-prolog]
 swig:
+  arch: [swig]
   debian: [swig]
   fedora: [swig]
   gentoo: [dev-lang/swig]
