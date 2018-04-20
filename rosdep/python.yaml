@@ -3477,6 +3477,7 @@ python-tensorflow-pip:
     pip:
       packages: [tensorflow]
 python-termcolor:
+  arch: [python2-termcolor]
   debian:
     buster: [python-termcolor]
     jessie: [python-termcolor]
