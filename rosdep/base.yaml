@@ -646,6 +646,7 @@ emacs:
   gentoo: [virtual/emacs]
   ubuntu: [emacs]
 enblend:
+  arch: [enblend-enfuse]
   debian: [enblend]
   fedora: [enblend]
   gentoo: [media-gfx/enblend]
@@ -1203,6 +1204,7 @@ htop:
   gentoo: [sys-process/htop]
   ubuntu: [htop]
 hugin-tools:
+  arch: [hugin]
   debian: [hugin-tools]
   fedora: [hugin-base]
   gentoo: [media-gfx/hugin]
