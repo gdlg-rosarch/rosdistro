@@ -983,6 +983,7 @@ python-evdev:
     wily: [python-evdev]
     xenial: [python-evdev]
 python-expiringdict:
+  arch: [python2-expiringdict]
   debian: [python-expiringdict]
   fedora:
     pip:
