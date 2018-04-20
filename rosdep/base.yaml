@@ -4910,12 +4910,14 @@ xfont-server:
     lucid: [xfs]
     precise: [xfs]
 xfonts-100dpi:
+  arch: [xorg-fonts-100dpi]
   debian: [xfonts-100dpi]
   fedora: [xorg-x11-fonts-100dpi]
   gentoo: [media-fonts/font-adobe-100dpi, media-fonts/font-bh-100dpi, media-fonts/font-bh-lucidatypewriter-100dpi, media-fonts/font-bitstream-100dpi]
   macports:
   ubuntu: [xfonts-100dpi]
 xfonts-75dpi:
+  arch: [xorg-fonts-75dpi]
   debian: [xfonts-75dpi]
   fedora: [xorg-x11-fonts-100dpi]
   gentoo: [media-fonts/font-adobe-75dpi, media-fonts/font-bh-75dpi, media-fonts/font-bh-lucidatypewriter-75dpi, media-fonts/font-bitstream-75dpi]
