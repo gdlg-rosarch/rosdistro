@@ -4801,6 +4801,7 @@ valgrind:
   gentoo: [dev-util/valgrind]
   ubuntu: [valgrind]
 vim:
+  arch: [vim]
   debian: [vim]
   fedora: [vim-enhanced]
   gentoo: [app-editors/vim]
