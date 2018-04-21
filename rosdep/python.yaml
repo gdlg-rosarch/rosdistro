@@ -638,6 +638,7 @@ python-chainercv-pip:
       depends: [cython, python-numpy]
       packages: [chainercv]
 python-cheetah:
+  arch: [python2-cheetah]
   debian: [python-cheetah]
   fedora: [python-cheetah]
   gentoo: [dev-python/cheetah]
