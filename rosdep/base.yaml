@@ -2084,6 +2084,7 @@ libjson0-dev:
   gentoo: ['dev-libs/json-c:0']
   ubuntu: [libjson0-dev]
 libjsoncpp:
+  arch: [jsoncpp]
   debian: [libjsoncpp1]
   fedora: [jsoncpp]
   gentoo: [dev-libs/jsoncpp]
