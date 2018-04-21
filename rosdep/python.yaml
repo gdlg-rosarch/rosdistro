@@ -3889,6 +3889,7 @@ python-websocket:
     xenial: [python-websocket]
     xenial_python3: [python3-websocket]
 python-webtest:
+  arch: [python2-webtest]
   debian: [python-webtest]
   fedora: [python-webtest]
   gentoo: [dev-python/webtest]
