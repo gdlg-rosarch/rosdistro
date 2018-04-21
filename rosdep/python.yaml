@@ -491,6 +491,7 @@ python-box2d:
   fedora: [pybox2d]
   ubuntu: [python-box2d]
 python-bs4:
+  arch: [python2-beautifulsoup4]
   debian: [python-bs4]
   fedora: [python-beautifulsoup4]
   gentoo: ['=dev-python/beautifulsoup-4*']
@@ -2080,6 +2081,7 @@ python-passlib:
   gentoo: [dev-python/passlib]
   ubuntu: [python-passlib]
 python-pastedeploy:
+  arch: [python2-pastedeploy]
   debian: [python-pastedeploy]
   fedora: [python-paste-deploy]
   gentoo: [dev-python/pastedeploy]
@@ -2507,6 +2509,7 @@ python-pyquaternion-pip:
     pip:
       packages: [pyquaternion]
 python-pyquery:
+  arch: [python2-pyquery]
   debian: [python-pyquery]
   fedora: [python-pyquery]
   gentoo: [dev-python/pyquery]
@@ -3841,6 +3844,7 @@ python-w1thermsensor-pip:
     pip:
       packages: [w1thermsensor]
 python-waitress:
+  arch: [python2-waitress]
   debian: [python-waitress]
   fedora: [python-waitress]
   gentoo: [dev-python/waitress]
@@ -3858,6 +3862,7 @@ python-watchdog:
     yakkety: [python-watchdog]
     zesty: [python-watchdog]
 python-webob:
+  arch: [python2-webob]
   debian: [python-webob]
   fedora: [python-webob]
   gentoo: [dev-python/webob]
