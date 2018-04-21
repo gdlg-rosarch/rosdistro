@@ -11081,7 +11081,7 @@ repositories:
     release:
       tags:
         release: release/kinetic/{package}/{version}
-      url: https://github.com/gdlg-rosarch/tiny-slam-ros-release.git
+      url: https://github.com/gdlg-rosarch/tiny_slam-release.git
     source:
       type: git
       url: https://github.com/OSLL/tiny-slam-ros-cpp.git
