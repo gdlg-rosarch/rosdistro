@@ -89,6 +89,7 @@ gunicorn:
   gentoo: [www-servers/gunicorn]
   ubuntu: [gunicorn]
 ipython:
+  arch: [ipython2]
   debian: [ipython]
   fedora: [python-ipython]
   gentoo: [dev-python/ipython]
