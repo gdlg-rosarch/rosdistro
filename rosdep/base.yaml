@@ -381,6 +381,7 @@ checkinstall:
   debian: [checkinstall]
   ubuntu: [checkinstall]
 chromium-browser:
+  arch: [chromium]
   debian: [chromium]
   fedora: [chromium]
   gentoo: [www-client/chromium]
@@ -562,6 +563,7 @@ dfu-util:
   gentoo: [app-mobilephone/dfu-util]
   ubuntu: [dfu-util]
 disper:
+  arch: [disper]
   debian: [disper]
   fedora: [disper]
   ubuntu: [disper]
@@ -932,6 +934,7 @@ gifsicle:
   gentoo: [media-gfx/gifsicle]
   ubuntu: [gifsicle]
 gimp:
+  arch: [gimp]
   debian: [gimp]
   fedora: [gimp]
   gentoo: [media-gfx/gimp]
@@ -946,6 +949,7 @@ git:
   opensuse: [git-core]
   ubuntu: [git-core]
 gitg:
+  arch: [gitg]
   debian: [gitg]
   fedora: [gitg]
   gentoo: [dev-vcs/gitg]
@@ -1334,9 +1338,11 @@ konsole:
   gentoo: [kde-apps/konsole]
   ubuntu: [konsole]
 language-pack-de:
+  arch: [filesystem]
   fedora: [filesystem]
   ubuntu: [language-pack-de]
 language-pack-en:
+  arch: [filesystem]
   fedora: [filesystem]
   ubuntu: [language-pack-en]
 lcov:
@@ -3620,6 +3626,7 @@ mayavi:
   gentoo: [sci-visualization/mayavi]
   ubuntu: [mayavi2]
 meld:
+  arch: [meld]
   debian: [meld]
   fedora: [meld]
   gentoo: [dev-util/meld]
@@ -3936,11 +3943,13 @@ openni-dev:
 opensplice:
   gentoo: [sci-libs/opensplice]
 openssh-client:
+  arch: [openssh]
   debian: [openssh-client]
   fedora: [openssh-clients]
   gentoo: [net-misc/openssh]
   ubuntu: [openssh-client]
 openssh-server:
+  arch: [openssh]
   debian: [openssh-server]
   fedora: [openssh-server]
   gentoo: [net-misc/openssh]
@@ -4606,6 +4615,7 @@ tcsh:
   gentoo: [app-shells/tcsh]
   ubuntu: [tcsh]
 terminator:
+  arch: [terminator]
   debian: [terminator]
   fedora: [terminator]
   gentoo: [x11-terms/terminator]
@@ -4654,6 +4664,7 @@ texlive-latex-recommended:
   macports: [texlive-latex-recommended]
   ubuntu: [texlive-latex-recommended]
 texmaker:
+  arch: [texmaker]
   debian: [texmaker]
   fedora: [texmaker]
   gentoo: [app-office/texmaker]
@@ -4690,11 +4701,13 @@ tix:
   gentoo: [dev-tcltk/tix]
   ubuntu: [tix]
 tmux:
+  arch: [tmux]
   debian: [tmux]
   fedora: [tmux]
   gentoo: [app-misc/tmux]
   ubuntu: [tmux]
 tree:
+  arch: [tree]
   debian: [tree]
   fedora: [tree]
   gentoo: [app-text/tree]

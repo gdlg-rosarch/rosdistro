@@ -457,6 +457,7 @@ python-blinker:
   gentoo: [dev-python/blinker]
   ubuntu: [python-blinker]
 python-bloom:
+  arch: [python2-bloom]
   debian: [python-bloom]
   fedora: [python-bloom]
   gentoo: [dev-python/bloom]
@@ -3919,6 +3920,7 @@ python-ws4py-pip:
     pip:
       packages: [ws4py]
 python-wstool:
+  arch: [python2-wstool]
   debian:
     buster: [python-wstool]
     stretch: [python-wstool]
