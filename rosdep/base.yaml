@@ -3235,6 +3235,7 @@ libvlc:
   gentoo: [media-video/vlc]
   ubuntu: [libvlc5, vlc-nox]
 libvlc-dev:
+  arch: [vlc]
   debian: [libvlc-dev]
   fedora: [libvlc-devel]
   gentoo: [media-video/vlc]
