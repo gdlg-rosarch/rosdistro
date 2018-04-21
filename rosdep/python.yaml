@@ -2750,6 +2750,7 @@ python-redis-pip:
     pip:
       packages: [redis]
 python-requests:
+  arch: [python2-requests]
   debian: [python-requests]
   fedora: [python-requests]
   gentoo: [dev-python/requests]
