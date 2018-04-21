@@ -3790,6 +3790,7 @@ msgpack:
   gentoo: [dev-libs/msgpack]
   ubuntu: [libmsgpack-dev]
 muparser:
+  arch: [muparser]
   debian: [libmuparser-dev]
   fedora: [muParser-devel]
   gentoo: [dev-cpp/muParser]
