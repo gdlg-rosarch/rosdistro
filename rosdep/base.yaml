@@ -3844,6 +3844,7 @@ nite-dev:
   fedora: [openni-nite-devel]
   ubuntu: [nite-dev]
 nkf:
+  arch: [nkf]
   debian: [nkf]
   fedora: [nkf]
   gentoo: [app-i18n/nkf]
