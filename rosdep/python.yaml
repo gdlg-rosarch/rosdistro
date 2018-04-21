@@ -3317,6 +3317,7 @@ python-sparqlwrapper:
   gentoo: [dev-python/sparql-wrapper]
   ubuntu: [python-sparqlwrapper]
 python-speechrecognition-pip:
+  arch: [python2-speechrecognition]
   debian:
     pip:
       packages: [speechrecognition]
