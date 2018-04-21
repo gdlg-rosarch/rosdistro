@@ -4064,6 +4064,7 @@ portaudio:
   gentoo: [media-libs/portaudio]
   ubuntu: [libportaudio-dev]
 portaudio19-dev:
+  arch: [portaudio]
   debian: [portaudio19-dev]
   fedora: [libportaudio-devel]
   gentoo: ['=media-libs/portaudio-19*']

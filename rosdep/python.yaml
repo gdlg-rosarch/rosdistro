@@ -407,6 +407,7 @@ python-babel:
   gentoo: [dev-python/Babel]
   ubuntu: [python-babel]
 python-backports.ssl-match-hostname:
+  arch: [python2-backports.ssl_match_hostname]
   debian: [python-backports.ssl-match-hostname]
   fedora: [python-backports.ssl-match-hostname]
   gentoo: [dev-python/backports-ssl-match-hostname]
@@ -2328,6 +2329,7 @@ python-pyassimp:
     yakkety: [python-pyassimp]
     zesty: [python-pyassimp]
 python-pyaudio:
+  arch: [python2-pyaudio]
   debian: [python-pyaudio]
   fedora: [pyaudio]
   gentoo: [dev-python/pyaudio]
