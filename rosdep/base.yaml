@@ -3229,6 +3229,7 @@ libv4l-dev:
       packages: [v4l-utils]
   ubuntu: [libv4l-dev]
 libvlc:
+  arch: [vlc]
   debian: [libvlc5, vlc-nox]
   fedora: [vlc-core]
   gentoo: [media-video/vlc]
