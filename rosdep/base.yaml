@@ -2791,6 +2791,7 @@ libqt5-sql:
   gentoo: ['dev-qt/qtsql:5']
   ubuntu: [libqt5sql5]
 libqt5-svg-dev:
+  arch: [qt5-svg]
   debian: [libqt5svg5-dev]
   fedora: [qt5-qtsvg-devel]
   freebsd: [qt5-svg]
