@@ -2573,6 +2573,7 @@ python-pytz-pip:
     pip:
       packages: [pytz]
 python-pyudev:
+  arch: [python2-pyudev]
   debian: [python-pyudev]
   fedora: [python-pyudev]
   gentoo: [dev-python/pyudev]
