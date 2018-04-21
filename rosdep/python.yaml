@@ -3800,6 +3800,7 @@ python-vcstool:
   gentoo: [dev-python/vcstools]
   macports: [py27-vcstools]
 python-virtualenv:
+  arch: [python2-virtualenv]
   debian: [python-virtualenv]
   fedora: [python-virtualenv]
   gentoo: [dev-python/virtualenv]
@@ -4034,6 +4035,7 @@ python-zmq:
     xenial: [python-zmq]
     yakkety: [python-zmq]
 python3-babeltrace:
+  arch: [python-babeltrace]
   debian:
     buster: [python3-babeltrace]
     jessie: [python3-babeltrace]
@@ -4042,10 +4044,12 @@ python3-babeltrace:
     wily: [python3-babeltrace]
     xenial: [python3-babeltrace]
 python3-dev:
+  arch: [python]
   debian: [python3-dev]
   gentoo: ['=dev-lang/python-3*']
   ubuntu: [python3-dev]
 python3-empy:
+  arch: [python-empy]
   debian:
     buster: [python3-empy]
     jessie: [python3-empy]
@@ -4053,6 +4057,7 @@ python3-empy:
   gentoo: [dev-python/empy]
   ubuntu: [python3-empy]
 python3-flake8:
+  arch: [flake8]
   debian:
     buster: [python3-flake8]
     jessie: [python3-flake8]
@@ -4060,10 +4065,12 @@ python3-flake8:
   gentoo: [dev-python/flake8]
   ubuntu: [python3-flake8]
 python3-nose:
+  arch: [python-nose]
   debian: [python3-nose]
   gentoo: [dev-python/nose]
   ubuntu: [python3-nose]
 python3-pep8:
+  arch: [python-pep8]
   debian:
     buster: [python3-pep8]
     jessie: [python3-pep8]
@@ -4071,6 +4078,7 @@ python3-pep8:
   gentoo: [dev-python/pep8]
   ubuntu: [python3-pep8]
 python3-pkg-resources:
+  arch: [python-setuptools]
   debian: [python3-pkg-resources]
   gentoo: [dev-python/setuptools]
   ubuntu: [python3-pkg-resources]
@@ -4086,6 +4094,7 @@ python3-pytest:
   gentoo: [dev-python/pytest]
   ubuntu: [python3-pytest]
 python3-ruamel.yaml:
+  arch: [python-ruamel-yaml]
   debian:
     buster: [python3-ruamel.yaml]
     jessie: [python3-ruamel.yaml]
@@ -4097,13 +4106,16 @@ python3-ruamel.yaml:
     yakkety: [python3-ruamel.yaml]
     zesty: [python3-ruamel.yaml]
 python3-setuptools:
+  arch: [python-setuptools]
   debian: [python3-setuptools]
   gentoo: [dev-python/setuptools]
   ubuntu: [python3-setuptools]
 python3-venv:
+  arch: [pyenv]
   debian: [python3-venv]
   ubuntu: [python3-venv]
 python3-yaml:
+  arch: [python-yaml]
   debian: [python3-yaml]
   gentoo: [dev-python/pyyaml]
   ubuntu: [python3-yaml]
