@@ -168,6 +168,7 @@ pyqt4-dev-tools:
   gentoo: [dev-python/PyQt4]
   ubuntu: [pyqt4-dev-tools]
 pyqt5-dev-tools:
+  arch: [python2-pyqt5]
   debian: [pyqt5-dev-tools]
   fedora: [python-qt5-devel]
   gentoo: [dev-python/PyQt5]
